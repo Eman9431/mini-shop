@@ -1,0 +1,111 @@
+#root{
+  margin : 0 auto;
+}
+
+.divcls{
+    font-family:  "Segoe UI";
+    font-size: 20px;
+    width:50vw;
+    margin: 20px auto;    /* centers horizontally */
+    padding: 20px;
+    background: #ffffff;
+   
+}
+table {
+  border-collapse: collapse;
+  background-color: #ffffff;
+  font-family:  "Segoe UI";
+  font-size: 20px;
+  margin: 0 auto;
+  padding: 20px;
+  width:90%;
+}
+
+th, td {
+  padding: 12px 16px;
+  text-align: left;
+}
+
+th {
+  background-color: #4a90e2;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+
+tr:hover {
+  background-color: #e6f0ff; /* row hover effect */
+  transition: 0.3s ease;
+}
+
+.footer{
+  display: flex;
+  background-color: #f7f5f6;
+  height: 50px;
+  color:#fc1c0c;
+  justify-content: center;
+  align-items: center;
+  font-weight: bolder;
+  flex-shrink: 0;
+}
+
+
+.form-container {
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  background-color: #f7f5f6;
+}
+
+.header-footer-wrapper {
+  height: 15vh;
+  width: 75vw;
+  display: flex;
+  justify-content: center;  /* horizontal center */
+  align-items: center;      /* vertical center */
+  margin: 0 auto;
+  background-color: #dad5d7;
+}
+
+.divcls2{
+    width: 500px;
+    margin: 40px auto;
+    padding: 20px;
+    background-origin:  10px;
+    border: 1px solid rgba(0,0,0,0.3);
+    background-color: #fff;
+
+}
+.divcls3{
+  height: 80vh;
+  width: 75vw;
+  display: flex;
+  justify-content: center;  /* horizontal center */
+  margin: 0 auto;
+  background-color: #fff;
+
+}
+
+.btn {
+  background-color: #bec0be;
+  color: white;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.fullscreen-center {
+  min-height: 100vh;          /* Full screen height */
+  display: flex;
+  justify-content: center;    /* Horizontal center */
+  align-items: center;        /* Vertical center */
+  background-color: #f8f9fa;  /* Light background */
+}
+.auth-card {
+  width: 400px;
+  padding: 25px;
+  border-radius: 10px;
+  background: white;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
